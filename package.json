@@ -1,0 +1,40 @@
+{
+  "name": "karma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {
+    "@uirouter/angularjs": "^1.0.22",
+    "grunt": "^1.0.3",
+    "grunt-concurrent": "^3.0.0",
+    "grunt-contrib-connect": "^2.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-protractor-runner": "^5.0.0",
+    "jasmine-core": "^2.8.0",
+    "jasmine-reporters": "^2.3.2",
+    "karma": "^1.7.1",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-jsdom-launcher": "^2.0.0",
+    "karma-junit-reporter": "^1.2.0",
+    "xml-js": "^1.6.2",
+    "xml2js": "^0.4.19",
+    "xmlbuilder": "^9.0.7"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/karma start",
+    "start": "./node_modules/.bin/grunt connect",
+    "score": "node generatescore.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "karma-coverage": "^1.1.2",
+    "karma-coverage-istanbul-reporter": "^2.0.5",
+    "protractor": "^5.4.2"
+  }
+}

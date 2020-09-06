@@ -1,0 +1,23 @@
+<div>
+  <div>
+    <h2>Find square/cube of a number:</h2>
+    <input id="input-id" class="number-input" type="number" ng-model="number" />
+    <button id="square" class="find-square" ng-click="findSquare()">X<sup>2</sup></button>
+    <button id="cube" class="find-cube" ng-click="findCube()">X<sup>3</sup></button>
+    
+    <h5 id="square-cube" class="answer">Result: {{answer}}</h5>
+  </div>
+</div>
+<div>
+  <div>
+    <h2>Find addition/subraction/multiplication/division of two numbers:</h2>
+    <input id="number1" class="num1-input" type="number" ng-model="num1" />
+    <input id="number2" class="num2-input" type="number" ng-model="num2" />
+    <button id="add" class="addition" ng-click="addition()">Add</button>
+    <button id="sub" class="subtraction" ng-click="subtraction()">Subtract</button>
+    <button id="mul" class="multiplication" ng-click="multiplication()">Multiply</button>
+    <button id="div" class="division" ng-click="division()">Divide</button>
+    
+    <h5 id="todo" class="result">Result: {{result}}</h5>
+  </div>
+</div>
